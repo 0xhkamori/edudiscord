@@ -68,18 +68,13 @@ Discord Bot client for EduVulcan e-diary that brings your school schedule, homew
 The bot responds to the following commands:
 
 ### Schedule Commands
-- `!plan` - Shows the schedule for the current week (Monday to Sunday)
-- `!plan YYYY-MM-DD` - Shows the schedule for one week starting from the specified date
-- `!plan YYYY-MM-DD YYYY-MM-DD` - Shows the schedule between the two specified dates
+- `!plan` - Shows the schedule for the current day
+- `!data` - Shows the schedule for one week starting from today
+- `!data YYYY-MM-DD` - Shows the schedule for one week starting from the specified date
+- `!data YYYY-MM-DD YYYY-MM-DD` - Shows the schedule between the two specified dates
 
 ### Homework Commands
-- `!homework` - Shows homework assignments for the current week
-- `!homework YYYY-MM-DD` - Shows homework assignments for one week starting from the specified date
-- `!homework YYYY-MM-DD YYYY-MM-DD` - Shows homework assignments between the two specified dates
+- `!zadanie` - Shows homework assignments for the current week
 
 ### Exam Commands
-- `!exams` - Shows exams for the current week
-- `!exams YYYY-MM-DD` - Shows exams for one week starting from the specified date
-- `!exams YYYY-MM-DD YYYY-MM-DD` - Shows exams between the two specified dates
-
-## 📋 Examples
+- `!testy` - Shows exams for the current week
